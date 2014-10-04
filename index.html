@@ -644,7 +644,7 @@ function getWordsAndMakePlaylist()
 			{
 				// <iframe src="https://embed.spotify.com/?uri=spotify:trackset:PREFEREDTITLE:5Z7ygHQo02SUrFmcgpwsKW,1x6ACsKV4UdWS2FMuPFUiT,4bi73jCM02fMpkI11Lqmfe" frameborder="0" allowtransparency="true"></iframe>
 				localStorage.setItem('track_ids', JSON.stringify(track_ids));
-				localStorage.setItem('playlist-name', username+'-'+language.value)
+				localStorage.setItem('playlist-name', 'Musixmatch-Polyglottis'+'-'+language.value)
 				var src = "https://embed.spotify.com/?uri=spotify:trackset:"+username+'-'+language.value+ ':'+ track_ids.toString()
 				//console.log(src)
 				$("#status").text("Done!")
